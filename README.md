@@ -15,7 +15,7 @@ Within this repo, you will be able to see how we completed the following:
 - Exported the subcategory DataFrame as subcategory.csv and save it to your GitHub repository.
   
 ## Created the Campaign DataFrame
-- Extract and transform the crowdfunding.xlsx Excel data to create a campaign DataFrame has the following columns:
+- Extracted and transformed the crowdfunding.xlsx Excel data to create a campaign DataFrame has the following columns:
   - The "cf_id" column
   - The "contact_id" column
   - The "company_name" column
