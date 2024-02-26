@@ -4,7 +4,7 @@ This group project was completed by Jessica Padilla, Sharon Romero, Maritza Ahum
 
 Within this repo, you will be able to see how we completed the following: 
 
-## Created the Category and Subcategory DataFrames
+## Creating the Category and Subcategory DataFrames
 - Extracted and transformed the crowdfunding.xlsx Excel data to create a category DataFrame that has the following columns:
   - A "category_id" column that has entries going sequentially from "cat1" to "catn", where n is the number of unique categories
   - A "category" column that contains only the category titles
@@ -14,7 +14,7 @@ Within this repo, you will be able to see how we completed the following:
   - A "subcategory" column that contains only the subcategory titles
 - Exported the subcategory DataFrame as subcategory.csv and save it to your GitHub repository.
   
-## Created the Campaign DataFrame
+## Creating the Campaign DataFrame
 - Extracted and transformed the crowdfunding.xlsx Excel data to create a campaign DataFrame has the following columns:
   - The "cf_id" column
   - The "contact_id" column
@@ -32,9 +32,9 @@ Within this repo, you will be able to see how we completed the following:
   - The "subcategory_id" column, with the unique identification numbers matching those in the "subcategory_id" column of the subcategory DataFrame
 - Exported the campaign DataFrame as campaign.csv and save it to your GitHub repository.
   
-## Created the Contacts DataFrame
+## Creating the Contacts DataFrame
 
-## Created the Crowdfunding Database
+## Creating the Crowdfunding Database
 - Inspected the four CSV files, and then sketched an ERD of the tables by using QuickDBDLinks 
 - Used the information from the ERD to create a table schema for each CSV file.
 - Specified the data types, primary keys, foreign keys, and other constraints.
