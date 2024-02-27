@@ -1,6 +1,6 @@
 # Crowdfunding ETL Pipeline Project
 
-This group project was completed by Jessica Padilla, Sharon Romero, Maritza Ahumada, Marco Nigro, and Paolo Arciaga. We collaborated amongst each other, as well as tutors, in order to debug certain parts of our code. 
+This group project was completed by Jessica Padilla, Sharon Romero, Maritza Ahumada, Marco Nigro, and Paolo Arciaga. We collaborated amongst each other in order to debug certain parts of our code. 
 
 Within this repo, you will be able to see how we completed the following: 
 
