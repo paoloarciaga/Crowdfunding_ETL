@@ -33,6 +33,28 @@ Within this repo, you will be able to see how we completed the following:
 - Exported the campaign DataFrame as campaign.csv and save it to your GitHub repository.
   
 ## Creating the Contacts DataFrame
+Option 1: Use Python dictionary methods.
+Option 2: Use regular expressions.
+
+If you chose Option 1, complete the following steps:
+
+- Imported the contacts.xlsx file into a DataFrame.
+- Iterated through the DataFrame, converting each row to a dictionary.
+- Iterated through each dictionary, doing the following:
+- Extracted the dictionary values from the keys by using a Python list comprehension.
+- Added the values for each row to a new list.
+- Created a new DataFrame that contains the extracted data.
+- Split each "name" column value into a first and last name, and placed each in a new column.
+- Cleaned and export the DataFrame as contacts.csv and save it to your GitHub repository.
+
+If you chose Option 2, complete the following steps:
+
+- Imported the contacts.xlsx file into a DataFrame.
+- Extracted the "contact_id", "name", and "email" columns by using regular expressions.
+- Created a new DataFrame with the extracted data.
+- Converted the "contact_id" column to the integer type.
+- Split each "name" column value into a first and a last name, and placed each in a new column.
+- Cleaned and then exported the DataFrame as contacts.csv and save it to your GitHub repository.
 
 ## Creating the Crowdfunding Database
 - Inspected the four CSV files, and then sketched an ERD of the tables by using QuickDBDLinks 
