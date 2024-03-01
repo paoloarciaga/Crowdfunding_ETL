@@ -1,6 +1,6 @@
 # Crowdfunding ETL Pipeline Project
 
-This group project was completed by Jessica Padilla, Sharon Romero, Maritza Ahumada, Marco Nigro, and Paolo Arciaga. We collaborated amongst each other in order to debug certain parts of our code. 
+This project was completed by Jessica Padilla, Sharon Romero, Maritza Ahumada, Marco Nigro, and Paolo Arciaga. We collaborated amongst each other in order to debug certain parts of our code. 
 
 Within this repo, you will be able to see how we completed the following: 
 
@@ -33,10 +33,10 @@ Within this repo, you will be able to see how we completed the following:
 - Exported the campaign DataFrame as campaign.csv and save it to your GitHub repository.
   
 ## Creating the Contacts DataFrame
-Option 1: Use Python dictionary methods.
-Option 2: Use regular expressions.
+Option 1: Used Python dictionary methods.
+Option 2: Used regular expressions.
 
-If you chose Option 1, complete the following steps:
+Option 1: 
 
 - Imported the contacts.xlsx file into a DataFrame.
 - Iterated through the DataFrame, converting each row to a dictionary.
@@ -47,7 +47,7 @@ If you chose Option 1, complete the following steps:
 - Split each "name" column value into a first and last name, and placed each in a new column.
 - Cleaned and export the DataFrame as contacts.csv and save it to your GitHub repository.
 
-If you chose Option 2, complete the following steps:
+Option 2:
 
 - Imported the contacts.xlsx file into a DataFrame.
 - Extracted the "contact_id", "name", and "email" columns by using regular expressions.
@@ -60,7 +60,7 @@ If you chose Option 2, complete the following steps:
 - Inspected the four CSV files, and then sketched an ERD of the tables by using QuickDBDLinks 
 - Used the information from the ERD to create a table schema for each CSV file.
 - Specified the data types, primary keys, foreign keys, and other constraints.
-- Saved the database schema as a Postgres file named crowdfunding_db_schema.sql, and save it to your GitHub repository.
+- Saved the database schema as a Postgres file named crowdfunding_db_schema.sql, and saved it to our repository.
 - Created a new Postgres database, named crowdfunding_db.
 - Using the database schema, we created the tables in the correct order to handle the foreign keys.
 - Verified the table creation by running a SELECT statement for each table.
